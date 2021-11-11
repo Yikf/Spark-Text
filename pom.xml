@@ -41,7 +41,7 @@
 
         <!-- Hive related properties -->
         <hive.group>org.apache.hive</hive.group>
-        <hive.version>2.3.7-baidu-rdw-1.0.0-SNAPSHOT</hive.version>
+        <hive.version>2.3.9</hive.version>
         <hive.deps.scope>compile</hive.deps.scope>
         <hive.classifier>core</hive.classifier>
 
