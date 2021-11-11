@@ -14,15 +14,23 @@ import java.util
 
 class TextTable extends Table with SupportsRead with SupportsWrite {
 
-  override def name(): String = ???
+  override def name(): String = "textv2"
 
-  override def schema(): StructType = ???
+  override def schema(): StructType = {
+    throw new UnsupportedOperationException("Not support")
+  }
 
-  override def capabilities(): util.Set[TableCapability] = ???
+  override def capabilities(): util.Set[TableCapability] = {
+    throw new UnsupportedOperationException("Not support")
+  }
 
-  override def newScanBuilder(options: CaseInsensitiveStringMap): ScanBuilder = ???
+  override def newScanBuilder(options: CaseInsensitiveStringMap): ScanBuilder = {
+    throw new UnsupportedOperationException("Not support")
+  }
 
-  override def newWriteBuilder(info: LogicalWriteInfo): WriteBuilder = ???
+  override def newWriteBuilder(info: LogicalWriteInfo): WriteBuilder = {
+    throw new UnsupportedOperationException("Not support")
+  }
 
   override def toString: String = s"Text Table $name"
 }
